@@ -37,14 +37,20 @@ urlFragment: azure-python-labs
 
 A collection of labs demonstrating how to build Python applications with Azure and [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=pyconindia-github-cxa).
 
+**Complete at least one Python virtual lab to be get an exclusive [Azure Heroes badge](https://www.microsoft.com/skills/azureheroes)!**
+
 ### :thinking: How to participate?
 
 1. Join the Microsoft Python Discord (http://aka.ms/python-discord ) and the **#python-virtual-labs** channel to ask questions, get help with labs, and/or further instructions.
 
 2. Select and complete a Python Virtual Lab from this repository (see [Virtual Labs](#-virtual-labs))
+   - :warning: some labs might need an **Azure subscription**. You can sign up for an [Azure free account](https://azure.microsoft.com/free/?WT.mc_id=pyconindia-github-cxa) for lab completion
 
-3. Confirm lab completion and redeem your Azure Hero Badge and your virtual swag
+3. Confirm lab completion and redeem your Azure Hero Badge
    - You must complete at least one lab to qualify for the giveaway
+   - To demonstrate completion choose one of these options:
+     - Upload a screen capture of your completed labs to our #python-virtual-labs channel
+     - Tweet with the #PyConIndia2020hashtag and tag [@azureadvocates](https://twitter.com/azureadvocates) with a screenshot of your completed lab
 
 ---
 
