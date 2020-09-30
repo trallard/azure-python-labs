@@ -8,7 +8,7 @@ In this lab you use Visual Studio Code remote development features to work on a 
 You'll need the following tools installed on your local machine:
 
 1. [Docker Desktop](https://www.docker.com/products/docker-desktop)
-1. [Visual Studio Code](https://code.visualstudio.com/)
+1. [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=pyconindia-github-cxa)
 1. The [VS Code Remote Extensions](https://aka.ms/vscode-remote) 
 1. If you are running on windows, set your git line endings to use LF:
     ```

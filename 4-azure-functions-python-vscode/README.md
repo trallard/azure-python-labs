@@ -3,6 +3,7 @@
 In this lab, you will build a serverless HTTP API with Azure Functions that takes a sentence as an input and returns the sentiment of the sentence.
 
 You will learn to:
+
 - Build a serverless HTTP API with Azure Functions
 - Run and debug the API locally on your machine
 - Deploy the API to Azure Functions
@@ -11,7 +12,7 @@ You will learn to:
 
 - macOS, Windows, or Linux
 - Python 3.6, 3.7, or 3.8
-- [Visual Studio Code](https://code.visualstudio.com/download) with these extensions installed:
+- [Visual Studio Code](https://code.visualstudio.com/download/?WT.mc_id=pyconindia-github-cxa) with these extensions installed:
     - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
     - [Azure Functions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
 
@@ -31,14 +32,14 @@ You will build an HTTP API using an Azure Function. An Azure Functions app can c
 
 1. A series of prompts will appear. Enter the following values:
 
-    | Prompt | Value | Description |
-    | --- | --- | --- |
-    | Language for your project | **Python** | |
-    | Python interpreter | Select one | Azure Functions requires Python 3.6, 3.7, 3.8 |
-    | Template for your first function | **HTTP trigger** | |
-    | Function name | **sentiment** | |
-    | Authorization level | **anonymous** | Allow function to be accessed anonymously |
-    | How to open new project | **Open in current window** | |
+    | Prompt                           | Value                      | Description                                   |
+    | -------------------------------- | -------------------------- | --------------------------------------------- |
+    | Language for your project        | **Python**                 |                                               |
+    | Python interpreter               | Select one                 | Azure Functions requires Python 3.6, 3.7, 3.8 |
+    | Template for your first function | **HTTP trigger**           |                                               |
+    | Function name                    | **sentiment**              |                                               |
+    | Authorization level              | **anonymous**              | Allow function to be accessed anonymously     |
+    | How to open new project          | **Open in current window** |                                               |
 
 VS Code reopens in the function app. Here are some important files and folders that you'll need to know for this lab:
 - `.venv/` - A virtual environment is automatically created for you using the version of Python you selected. When running your function app, it runs in this virtual environment.
@@ -109,18 +110,18 @@ You will now use VS Code to deploy the function app to Azure.
 
 1. Enter the following values in the prompts:
 
-    | Prompt | Value | Description |
-    | --- | --- | --- |
-    | Select subscription | Your Azure subscription | If you were provided credentials for the lab, select the subscription that appears |
-    | Select Function App | **Create new Function App in Azure (Advanced)** | Ensure you select the **Advanced** option so you can choose the resource group to deploy to |
-    | Select a runtime | A Python version | Select the same version as you used to create your local function app |
-    | Select a hosting plan | **Consumption** | |
-    | Select a resource group | A resource group | If you were provided lab credentials, you must select the existing resource group from the dropdown |
-    | Select a storage account | **Create a new storage account** | Azure Functions requires a storage account to store your code |
-    | Name of storage account | Accept the default name | |
-    | Select an Application Insights | **Create new Application Insights** | Application Insights provides monitoring for your function app |
-    | Name of Application Insights | Accept the default name | |
-    | Location | **Central US** | |
+    | Prompt                         | Value                                           | Description                                                                                         |
+    | ------------------------------ | ----------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+    | Select subscription            | Your Azure subscription                         | If you were provided credentials for the lab, select the subscription that appears                  |
+    | Select Function App            | **Create new Function App in Azure (Advanced)** | Ensure you select the **Advanced** option so you can choose the resource group to deploy to         |
+    | Select a runtime               | A Python version                                | Select the same version as you used to create your local function app                               |
+    | Select a hosting plan          | **Consumption**                                 |                                                                                                     |
+    | Select a resource group        | A resource group                                | If you were provided lab credentials, you must select the existing resource group from the dropdown |
+    | Select a storage account       | **Create a new storage account**                | Azure Functions requires a storage account to store your code                                       |
+    | Name of storage account        | Accept the default name                         |                                                                                                     |
+    | Select an Application Insights | **Create new Application Insights**             | Application Insights provides monitoring for your function app                                      |
+    | Name of Application Insights   | Accept the default name                         |                                                                                                     |
+    | Location                       | **Central US**                                  |                                                                                                     |
 
     Wait for the resources to be provisioned and your app to be deployed.
 
