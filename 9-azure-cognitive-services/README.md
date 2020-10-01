@@ -10,29 +10,29 @@ You will learn to:
 
 ## Prerequisites
 
-- Azure Subscription (e.g. [Free](https://aka.ms/azure-free-account) or [Student](https://aka.ms/azure-student-account))
+- Azure Subscription (e.g. [Free](https://aka.ms/azure-free-account/?WT.mc_id=pyconindia-github-cxa) or [Student](https://aka.ms/azure-student-account/?WT.mc_id=pyconindia-github-cxa))
 - macOS, Windows, or Linux
 - Python 2.7, or 3.5 or later is required
-- Your favorite editor or [Visual Studio Code](https://code.visualstudio.com/download)
+- Your favorite editor or [Visual Studio Code](https://code.visualstudio.com/download/?WT.mc_id=pyconindia-github-cxa)
 
 ## Create an Azure Form Recognizer resource
 
-[Azure Form Recognizer](https://docs.microsoft.com/azure/cognitive-services/form-recognizer/) is an Azure Cognitive Service focused on using machine learning to identify and extract key-value pairs and table data from scanned paper documents. Applications for Form Recognizer service can extend beyond just assisting with data entry. It could also be used in integrated solutions for optimizing the auditing needs of users, letting them make informed business decisions by learning from their expense trends or matching documents with digital records.
+[Azure Form Recognizer](https://docs.microsoft.com/azure/cognitive-services/form-recognizer/?WT.mc_id=pyconindia-github-cxa) is an Azure Cognitive Service focused on using machine learning to identify and extract key-value pairs and table data from scanned paper documents. Applications for Form Recognizer service can extend beyond just assisting with data entry. It could also be used in integrated solutions for optimizing the auditing needs of users, letting them make informed business decisions by learning from their expense trends or matching documents with digital records.
 
-1. Open [Azure Portal](https://portal.azure.com/) and login using your account with an existing Azure subscription.
+1. Open [Azure Portal](https://portal.azure.com/?WT.mc_id=pyconindia-github-cxa) and login using your account with an existing Azure subscription.
 
 1. In the top search bar search for Form Recognizer. You will find it in the Marketplace section. Or go directly to [the resource creation page](https://portal.azure.com/#create/Microsoft.CognitiveServicesFormRecognizer)
 
 1. A series of open fields will appear. Enter the following values:
 
-    | Field | Value |
-    | --- | --- |
-    | Name | **ReceiptAnalyzer**. You can choose your own name, just make sure to change it in your code later |
-    | Subscription | Select Active Azure subscription |
-    | Location | Select location that works best for you |
-    | Pricing tier | **F0** |
-    | Resource group | Click on `Create New` and put **receipt-analyzer** as the new name |
-    | I confirm I have read and understood the notice below | Check the box|
+    | Field                                                 | Value                                                                                             |
+    | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+    | Name                                                  | **ReceiptAnalyzer**. You can choose your own name, just make sure to change it in your code later |
+    | Subscription                                          | Select Active Azure subscription                                                                  |
+    | Location                                              | Select location that works best for you                                                           |
+    | Pricing tier                                          | **F0**                                                                                            |
+    | Resource group                                        | Click on `Create New` and put **receipt-analyzer** as the new name                                |
+    | I confirm I have read and understood the notice below | Check the box                                                                                     |
 
 1. Click create and wait for the deployment to finish. You should be able to see `Go to resource` button once your resource is ready.
 
@@ -139,7 +139,7 @@ Congratulations! You have successfully analyzed the receipt information. You sho
 
 ## Next steps
 
-If you are interested in learning more about different things you can do with your Form Recognizer resource, such as writing and training your own models you can find [more documentation here](https://docs.microsoft.com/azure/cognitive-services/form-recognizer/)
+If you are interested in learning more about different things you can do with your Form Recognizer resource, such as writing and training your own models you can find [more documentation here](https://docs.microsoft.com/azure/cognitive-services/form-recognizer/?WT.mc_id=pyconindia-github-cxa)
 
 For more samples visit our [GitHub page](https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/formrecognizer/azure-ai-formrecognizer#more-sample-code)
 
