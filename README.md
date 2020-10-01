@@ -50,7 +50,7 @@ A collection of labs demonstrating how to build Python applications with Azure a
    - You must complete at least one lab to qualify for the giveaway
    - To demonstrate completion choose one of these options:
      - Upload a screen capture of your completed labs to our #python-virtual-labs channel
-     - Tweet with the #PyConIndia2020hashtag and tag [@azureadvocates](https://twitter.com/azureadvocates) with a screenshot of your completed lab
+     - Tweet with the #PyConIndia2020 hashtag and tag [@azureadvocates](https://twitter.com/azureadvocates) with a screenshot of your completed lab
 
 ---
 
